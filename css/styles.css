@@ -13,11 +13,20 @@
 }
 body {
     background-color: #fffdc9;
-}
-
+    background-image: url(images/logo.png);
+    background-image: linear-gradient(rgba(0,0,0));
+    background-size:cover;
+    background-position: center;
+    min-height:100vh;
+        
 nav ul li a {
     color:firebrick;
     text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 50 px;
+    box-shadow: 5px 5px 5px #828282;
+    background-color: #ffffff; opacity: 0.1;
+    background-image: linear-gradient(#ffffff,#000000)
 }
 
 nav ul li {
@@ -39,3 +48,4 @@ header {
     align-items: center;
     
 }
+.container
