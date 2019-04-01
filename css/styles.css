@@ -1,3 +1,7 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+}
 .websiteformat {
     color: firebrick;
 }
@@ -18,7 +22,26 @@ body {
     background-size:cover;
     background-position: center;
     min-height:100vh;
-        
+    
+}
+.photos img{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+/*    border: 2px solid #000000;*/
+/*    box-shadow: 2px 2px #222222;*/
+}
+.temp {
+    color: red;
+}
+.photos{
+    display: flex;
+    justify-content: space-around; 
+/*    flex-wrap: wrap;*/
+    align-content: center;
+    
+}
+    
 nav ul li a {
     color:firebrick;
     text-decoration: none;
@@ -37,7 +60,7 @@ a {
     color:darkgreen;
 }
 @media screen and (max-width: 40rem) {
-      header {
+      header, .photos {
         flex-direction: column;
     }
 }
